@@ -7,7 +7,5 @@ import com.celinamax.workshopmongo.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String>{
-
-	User findById(String id);
-
+	
 }
